@@ -1,16 +1,40 @@
 # news_app
 
-A new Flutter project.
+Simple news application with News API.
 
-## Getting Started
+Packages:
 
-This project is a starting point for a Flutter application.
+  1. #state managment
+  flutter_bloc: ^8.1.5
 
-A few resources to get you started if this is your first Flutter project:
+  2. #compaiting dart objects
+  equatable: ^2.0.5
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  3. #dateFormat
+  intl: ^0.19.0
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  4. #data base 
+  floor: ^1.4.2
+
+  5. #for request 
+  retrofit: ^4.1.0
+ 
+  6. #for hyperlinks
+  url_launcher: ^6.2.6
+
+  7. #hooks
+  flutter_hooks: ^0.20.5 (but didn`t use it)
+
+  8. #cached_image
+  cached_network_image: ^3.3.1
+
+  9. #service locator
+  get_it: ^7.6.8
+  
+  10. #for API
+  dio: ^5.4.2+1
+
+  dev_dep:
+  flutter_lints: ^3.0.0
+  retrofit_generator: ^8.1.0
+  build_runner: ^2.4.9
